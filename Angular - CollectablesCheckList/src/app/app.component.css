@@ -1,6 +1,12 @@
-.AppComponentContainer{
+.AppComponentContainer {
     width: 100vw;
     height: 100vh;
     overflow: auto;
     background: url("https://st5.depositphotos.com/78679426/65411/v/450/depositphotos_654110944-stock-illustration-blue-sky-clouds-anime-vector.jpg");
+}
+
+.MenubarContainer {
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }

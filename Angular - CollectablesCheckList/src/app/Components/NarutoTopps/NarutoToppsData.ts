@@ -154,7 +154,8 @@ export const NarutoToppsData = {
             subSet: "Light Attack",
             textOnCard: "Tsunade Senju",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/LbDmAeg.jpeg",
+            backImageLink: "https://i.imgur.com/73xWijE.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5Q-010',
@@ -162,7 +163,8 @@ export const NarutoToppsData = {
             subSet: "Light Attack",
             textOnCard: "Kabuto Yakushi",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/0B7654l.jpeg",
+            backImageLink: "https://i.imgur.com/ulRyTgW.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5R-011',
@@ -170,7 +172,8 @@ export const NarutoToppsData = {
             subSet: "Light Attack",
             textOnCard: "Gaara",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/Rs6cWH3.jpeg",
+            backImageLink: "https://i.imgur.com/4rlJyJZ.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5S-012',
@@ -178,7 +181,8 @@ export const NarutoToppsData = {
             subSet: "Light Attack",
             textOnCard: "Sasuke Uchiha",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/pnm6cDb.jpeg",
+            backImageLink: "https://i.imgur.com/DAjwrF1.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5T-013',
