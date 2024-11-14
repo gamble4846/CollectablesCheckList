@@ -14,3 +14,7 @@
 .ant-menu-horizontal>.ant-menu-item::after {
     display: none;
 }
+
+.ant-table-placeholder {
+    display: none;
+}

@@ -10,11 +10,12 @@ import { NzSwitchModule } from 'ng-zorro-antd/switch';
 import { NzInputModule } from 'ng-zorro-antd/input';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import NarutoToppsData from './NarutoToppsData';
+import { NzTableModule } from 'ng-zorro-antd/table';
 
 @Component({
   selector: 'app-naruto-topps',
   standalone: true,
-  imports: [CommonModule, NzGridModule, NzButtonModule, NzCheckboxModule, FormsModule, NzToolTipModule, NzSwitchModule, NzInputModule, NzIconModule, FormsModule],
+  imports: [NzTableModule, CommonModule, NzGridModule, NzButtonModule, NzCheckboxModule, FormsModule, NzToolTipModule, NzSwitchModule, NzInputModule, NzIconModule, FormsModule],
   templateUrl: './naruto-topps.component.html',
   styleUrl: './naruto-topps.component.css'
 })
@@ -25,6 +26,7 @@ export class NarutoToppsComponent {
   LocalStorageName = "NarutoToppsCollected";
   ShowOnlyPendingCards: boolean = false;
   ImageFullScreenShow: boolean = false;
+  ShowGrid: boolean = true;
   FullScreenImageLink: string = "";
   FullScreenBackImageLink: string = "";
   FullScreenRotateDegree: number = 0;

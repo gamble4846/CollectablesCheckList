@@ -11,13 +11,46 @@
         <div style="padding: 5px 0px;">
             <nz-switch [(ngModel)]="ShowOnlyPendingCards"></nz-switch> Show Only Pending Cards
         </div>
+        <div style="padding: 5px 0px;">
+            <nz-switch [(ngModel)]="ShowGrid"></nz-switch> Gird / List
+        </div>
     </section>
     <section class="SectionContainer">
         <div class="SectionTitle">
             Base Cards - Role Playing Cards
         </div>
         <div class="SectionBody">
-            <div nz-row [nzGutter]="[16,16]">
+            <div *ngIf="!ShowGrid">
+                <nz-table nzSize="small">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Image</th>
+                            <th>Sub Set</th>
+                            <th>Text On Card</th>
+                            <th>Collected</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <ng-container *ngFor="let cardData of NarutoToppsData.baseCardsRolePlayingCards">
+                            <tr *ngIf="ShowCard(cardData)">
+                                <td>{{ cardData.cardNumber }}</td>
+                                <td>
+                                    <div class="ImageContainer small">
+                                        <img [src]="cardData.imageLink"
+                                            (click)="ImageFullScreen(cardData.imageLink, cardData.backImageLink)">
+                                    </div>
+                                </td>
+                                <td>{{ cardData.subSet }}</td>
+                                <td>{{ cardData.textOnCard }}</td>
+                                <td><label nz-checkbox [(ngModel)]="cardData.isCollected"
+                                        (ngModelChange)="isCollectedChanged()"></label></td>
+                            </tr>
+                        </ng-container>
+                    </tbody>
+                </nz-table>
+            </div>
+            <div nz-row [nzGutter]="[16,16]" *ngIf="ShowGrid">
                 <ng-container *ngFor="let cardData of NarutoToppsData.baseCardsRolePlayingCards">
                     <div nz-col nzXs="24" nzSm="12" nzMd="6" nzLg="6" nzXl="6" *ngIf="ShowCard(cardData)">
                         <div class="CardContainer">
@@ -56,7 +89,37 @@
             Base Cards - Spawn Cards
         </div>
         <div class="SectionBody">
-            <div nz-row [nzGutter]="[16,16]">
+            <div *ngIf="!ShowGrid">
+                <nz-table nzSize="small">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Image</th>
+                            <th>Sub Set</th>
+                            <th>Text On Card</th>
+                            <th>Collected</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <ng-container *ngFor="let cardData of NarutoToppsData.baseCardsSpawnCards">
+                            <tr *ngIf="ShowCard(cardData)">
+                                <td>{{ cardData.cardNumber }}</td>
+                                <td>
+                                    <div class="ImageContainer small">
+                                        <img [src]="cardData.imageLink"
+                                            (click)="ImageFullScreen(cardData.imageLink, cardData.backImageLink)">
+                                    </div>
+                                </td>
+                                <td>{{ cardData.subSet }}</td>
+                                <td>{{ cardData.textOnCard }}</td>
+                                <td><label nz-checkbox [(ngModel)]="cardData.isCollected"
+                                        (ngModelChange)="isCollectedChanged()"></label></td>
+                            </tr>
+                        </ng-container>
+                    </tbody>
+                </nz-table>
+            </div>
+            <div nz-row [nzGutter]="[16,16]" *ngIf="ShowGrid">
                 <ng-container *ngFor="let cardData of NarutoToppsData.baseCardsSpawnCards">
                     <div nz-col nzXs="24" nzSm="12" nzMd="6" nzLg="6" nzXl="6" *ngIf="ShowCard(cardData)">
                         <div class="CardContainer">
@@ -94,7 +157,37 @@
             Base Cards - Light Attack
         </div>
         <div class="SectionBody">
-            <div nz-row [nzGutter]="[16,16]">
+            <div *ngIf="!ShowGrid">
+                <nz-table nzSize="small">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Image</th>
+                            <th>Sub Set</th>
+                            <th>Text On Card</th>
+                            <th>Collected</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <ng-container *ngFor="let cardData of NarutoToppsData.baseCardsLightAttack">
+                            <tr *ngIf="ShowCard(cardData)">
+                                <td>{{ cardData.cardNumber }}</td>
+                                <td>
+                                    <div class="ImageContainer small">
+                                        <img [src]="cardData.imageLink"
+                                            (click)="ImageFullScreen(cardData.imageLink, cardData.backImageLink)">
+                                    </div>
+                                </td>
+                                <td>{{ cardData.subSet }}</td>
+                                <td>{{ cardData.textOnCard }}</td>
+                                <td><label nz-checkbox [(ngModel)]="cardData.isCollected"
+                                        (ngModelChange)="isCollectedChanged()"></label></td>
+                            </tr>
+                        </ng-container>
+                    </tbody>
+                </nz-table>
+            </div>
+            <div nz-row [nzGutter]="[16,16]" *ngIf="ShowGrid">
                 <ng-container *ngFor="let cardData of NarutoToppsData.baseCardsLightAttack">
                     <div nz-col nzXs="24" nzSm="12" nzMd="6" nzLg="6" nzXl="6" *ngIf="ShowCard(cardData)">
                         <div class="CardContainer">

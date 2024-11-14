@@ -100,7 +100,7 @@ export const NarutoToppsData = {
             subSet: "Light Attack",
             textOnCard: "",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png",
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
             backImageLink: ""
         },
         {
@@ -190,7 +190,8 @@ export const NarutoToppsData = {
             subSet: "Light Attack",
             textOnCard: "Asuma Sarutobi",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5U-014',
@@ -198,7 +199,8 @@ export const NarutoToppsData = {
             subSet: "Light Attack",
             textOnCard: "Asuma Sarutobi",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5V-015',
@@ -206,7 +208,8 @@ export const NarutoToppsData = {
             subSet: "Light Attack",
             textOnCard: "Naruto Uzumaki",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/MyP1ab6.jpeg",
+            backImageLink: "https://i.imgur.com/h3lh6Rc.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5W-016',
@@ -214,7 +217,8 @@ export const NarutoToppsData = {
             subSet: "Light Attack",
             textOnCard: "Sasuke Uchiha",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/z2YGmU7.jpeg",
+            backImageLink: "https://i.imgur.com/W5gH5vt.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5X-017',
@@ -222,7 +226,8 @@ export const NarutoToppsData = {
             subSet: "Light Attack",
             textOnCard: "Rock Lee",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/lMIfkoW.png",
+            backImageLink: "https://i.imgur.com/6iuM6z9.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5Y-018',
@@ -230,7 +235,8 @@ export const NarutoToppsData = {
             subSet: "Light Attack",
             textOnCard: "Naruto Uzumaki",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/slXnag6.jpeg",
+            backImageLink: "https://i.imgur.com/4S6Ybyo.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5Z-019',
@@ -238,7 +244,8 @@ export const NarutoToppsData = {
             subSet: "Light Attack",
             textOnCard: "Naruto Uzumaki",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9qXZzYv.jpeg",
+            backImageLink: "https://i.imgur.com/Npl9wDf.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6A-020',
@@ -246,7 +253,8 @@ export const NarutoToppsData = {
             subSet: "Light Attack",
             textOnCard: "Sasuke Uchiha",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/3c8AjHD.jpeg",
+            backImageLink: "https://i.imgur.com/lZzchhI.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6B-021',
@@ -254,7 +262,8 @@ export const NarutoToppsData = {
             subSet: "Light Attack",
             textOnCard: "Sakura Haruno",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/Xk1ivRl.jpeg",
+            backImageLink: "https://i.imgur.com/Ri6EcY5.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6C-022',
@@ -262,7 +271,8 @@ export const NarutoToppsData = {
             subSet: "Light Attack",
             textOnCard: "Kagari",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/4ug7o5s.jpeg",
+            backImageLink: "https://i.imgur.com/Ex9PAd6.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6D-023',
@@ -270,7 +280,8 @@ export const NarutoToppsData = {
             subSet: "Light Attack",
             textOnCard: "Kabuto Yakushi",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/IFFLiQa.jpeg",
+            backImageLink: "https://i.imgur.com/Qz0UrtE.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6E-024',
@@ -278,39 +289,242 @@ export const NarutoToppsData = {
             subSet: "Light Attack",
             textOnCard: "Shino Aburame",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/eE8iR7C.jpeg",
+            backImageLink: "https://i.imgur.com/NNFHrnh.png"
         },
         {
-            id: '01F1YYV8F4R7S3V0XFYJGH3Q6F-025',
+            id: '9DF0BYW8YZZ1A3VJ15OTR44S-25',
             cardNumber: 33,
             subSet: "Light Attack",
-            textOnCard: "Neji Hyuga",
+            textOnCard: "Sakura VS Ino",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/KNRWfDk.jpeg",
+            backImageLink: "https://i.imgur.com/bLDJLFZ.png"
         },
         {
-            id: '01F1YYV8F4R7S3V0XFYJGH3Q6G-026',
+            id: 'C30RFKFXR7MC1YDKCRG2W3BQ-26',
             cardNumber: 34,
             subSet: "Light Attack",
             textOnCard: "Hinata Hyuga",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/Zp8ZfhV.jpeg",
+            backImageLink: "https://i.imgur.com/ZVYds3Y.png"
         },
         {
-            id: '01F1YYV8F4R7S3V0XFYJGH3Q6H-027',
+            id: 'OC28J0YVB5A8QGXU00H0IKOF-27',
             cardNumber: 35,
             subSet: "Light Attack",
-            textOnCard: "Kurenai Yuhi",
+            textOnCard: "Orochimaru",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/6S03kzl.jpeg",
+            backImageLink: "https://i.imgur.com/ynRGfBU.png"
         },
         {
-            id: '01F1YYV8F4R7S3V0XFYJGH3Q6I-028',
+            id: 'E8O4CR5D3KQ6ZCYZS70SE3CM-28',
             cardNumber: 36,
             subSet: "Light Attack",
-            textOnCard: "Shikamaru Nara",
+            textOnCard: "Sasuke Uchiha",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/GwiWeYE.jpeg",
+            backImageLink: "https://i.imgur.com/SMCQqkN.png"
+        },
+        {
+            id: 'JOB9JXYLT0KHD7FYR2B2MEON-29',
+            cardNumber: 37,
+            subSet: "Light Attack",
+            textOnCard: "Sasuke Uchiha",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
+        },
+        {
+            id: '1KHNL90Q1KMP7L8M9LBHPESS-30',
+            cardNumber: 38,
+            subSet: "Light Attack",
+            textOnCard: "Rock Lee",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/rvFJ0Fv.jpeg",
+            backImageLink: "https://i.imgur.com/eZSqtxb.png"
+        },
+        {
+            id: '0XLQPF5J1SL0AYCW7EB9KAPU-31',
+            cardNumber: 39,
+            subSet: "Light Attack",
+            textOnCard: "Sakura Haruno",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/IgDx5xQ.jpeg",
+            backImageLink: "https://i.imgur.com/bEwAXFw.png"
+        },
+        {
+            id: 'R2QSPXE8-P8KJ5NVLMNMWHJ99-32',
+            cardNumber: 40,
+            subSet: "Light Attack",
+            textOnCard: "Naruto Uzumaki",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/fCeZiRZ.jpeg",
+            backImageLink: "https://i.imgur.com/GYpICNs.png"
+        },
+        {
+            id: 'OWLGU3BB-RJ73GOYV8SIH91W2-33',
+            cardNumber: 41,
+            subSet: "Light Attack",
+            textOnCard: "Sakura Haruno",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
+        },
+        {
+            id: 'YIZT9P8X-VUJU7JWXVTBX0XJ7-34',
+            cardNumber: 42,
+            subSet: "Light Attack",
+            textOnCard: "Naruto Uzumaki",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/ZgPmzGv.png",
+            backImageLink: "https://i.imgur.com/EvyrDCJ.png"
+        },
+        {
+            id: '61PBVTB0-59K3WL1A66I6SFEC-35',
+            cardNumber: 43,
+            subSet: "Light Attack",
+            textOnCard: "Sasuke Uchiha",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
+        },
+        {
+            id: '7H23O2SB-GM2XWTWA7SPBCCVQ-36',
+            cardNumber: 44,
+            subSet: "Light Attack",
+            textOnCard: "Rock Lee",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/Dwf8Hsg.jpeg",
+            backImageLink: "https://i.imgur.com/SrkOY31.png"
+        },
+        {
+            id: '5SVJC1ZT-W72F28D55GDXQJXT-37',
+            cardNumber: 45,
+            subSet: "Light Attack",
+            textOnCard: "Sasuke Uchiha",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
+        },
+        {
+            id: 'ZFWDK4KE-MX04J3HYBK9UOJ12-38',
+            cardNumber: 46,
+            subSet: "Light Attack",
+            textOnCard: "Misumi Tsurugi",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/ZCHL9IZ.jpeg",
+            backImageLink: "https://i.imgur.com/z26J6N9.png"
+        },
+        {
+            id: 'RA2135A5TWRQ5KAAIZRAVHI340',
+            cardNumber: 47,
+            subSet: "Light Attack",
+            textOnCard: "Kiba & Akamaru",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
+        },
+        {
+            id: 'Y2T1HNPWK0H42WTNVGCU3RD41',
+            cardNumber: 48,
+            subSet: "Light Attack",
+            textOnCard: "Ino Yamanaka",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
+        },
+        {
+            id: 'X1N8Z0H4PTWQSZG65FJ1VRTS7249',
+            cardNumber: 49,
+            subSet: "Light Attack",
+            textOnCard: "Sakura Haruno",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
+        },
+        {
+            id: 'G6L0K9H2O2S9C8P17MXF9J5N8A50',
+            cardNumber: 50,
+            subSet: "Light Attack",
+            textOnCard: "Temari",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/1b3sibS.jpeg",
+            backImageLink: "https://i.imgur.com/J8cd4p6.png"
+        },
+        {
+            id: 'FQ6X10J0R5W9NX74PQ7V1Z3TU651',
+            cardNumber: 51,
+            subSet: "Light Attack",
+            textOnCard: "Kin Tsuchi",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/7cwaE74.jpeg",
+            backImageLink: "https://i.imgur.com/vjMRKWX.png"
+        },
+        {
+            id: 'U0F7B3LQO5C6J94ZMGD2R8SX5V52',
+            cardNumber: 52,
+            subSet: "Light Attack",
+            textOnCard: "Kiba Inuzuka",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/de9NN0m.jpeg",
+            backImageLink: "https://i.imgur.com/elciDXZ.png"
+        },
+        {
+            id: 'K9E0A3T7O1P0M5P8ZB9F4V2J0Y53',
+            cardNumber: 53,
+            subSet: "Light Attack",
+            textOnCard: "Akamaru",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/nEglVjw.jpeg",
+            backImageLink: "https://i.imgur.com/cQfzfoD.png"
+        },
+        {
+            id: 'VQ3H9J6T2F0R8B5K7N4Z1P0W5D54',
+            cardNumber: 54,
+            subSet: "Light Attack",
+            textOnCard: "Naruto Uzumaki",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/itSMJY1.jpeg",
+            backImageLink: "https://i.imgur.com/GQLFC7l.png"
+        },
+        {
+            id: 'S2C1V0X5A6B9Y0F7I4J9T8R2K355',
+            cardNumber: 55,
+            subSet: "Light Attack",
+            textOnCard: "Kiba Inuzuka",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/WEGLbdD.jpeg",
+            backImageLink: "https://i.imgur.com/anByB8l.png"
+        },
+        {
+            id: 'P4A1B0K9X8W7Q3T5O2N6J7V2R056',
+            cardNumber: 56,
+            subSet: "Light Attack",
+            textOnCard: "Naruto Uzumaki",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/aCl8is4.jpeg",
+            backImageLink: "https://i.imgur.com/9fzWKpd.png"
+        },
+        {
+            id: 'H5X2V9P7M0A1N8K0R3T2O4J6Q57',
+            cardNumber: 57,
+            subSet: "Light Attack",
+            textOnCard: "Neji Hyuga",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/1jgptUc.jpeg",
+            backImageLink: "https://i.imgur.com/Vo5wvLH.png"
+        },
+        {
+            id: 'W0F8J9K5M7P3X2Q1B0V4Z9T1Y58',
+            cardNumber: 58,
+            subSet: "Light Attack",
+            textOnCard: "Naruto Uzumaki",
+            isCollected: false,
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         }
     ],
     baseCardsLiveAction: [
@@ -320,7 +534,8 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "Sexy Jutsu",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/I0hdVPU.jpeg",
+            backImageLink: "https://i.imgur.com/SDwwW9E.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5D-002',
@@ -328,7 +543,8 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "Naruto's First toad summon",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/bmlsx9f.jpeg",
+            backImageLink: "https://i.imgur.com/NBhAnTJ.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5E-003',
@@ -336,7 +552,8 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "The Youthful Sensei",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/ZgcJYEf.jpeg",
+            backImageLink: "https://i.imgur.com/VOuO3j9.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5F-004',
@@ -344,23 +561,26 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "Sakura vs Zaku",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/orMlUxz.jpeg",
+            backImageLink: "https://i.imgur.com/XyD9AOx.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5G-005',
             cardNumber: '63',
             subSet: "Live Action",
-            textOnCard: "Team 7 is formed",
+            textOnCard: "Team 7 Is Formed",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/OGC9SrD.jpeg",
+            backImageLink: "https://i.imgur.com/9rj5pli.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5H-006',
             cardNumber: '64',
             subSet: "Live Action",
-            textOnCard: "fight intervened-Neji vs Hinata",
+            textOnCard: "Fight Intervened - Neji vs Hinata",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/ZPOcpxG.jpeg",
+            backImageLink: "https://i.imgur.com/NX7qwSf.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5I-007',
@@ -368,7 +588,8 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "The Forbidden Jutsu",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/JSJagwz.jpeg",
+            backImageLink: "https://i.imgur.com/HMAGgH3.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5J-008',
@@ -376,31 +597,35 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "Kurenai vs Itachi",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/35e6QnG.png",
+            backImageLink: "https://i.imgur.com/Gfo9lPT.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5K-009',
             cardNumber: '67',
             subSet: "Live Action",
-            textOnCard: "Tsunade smacks Naruto",
+            textOnCard: "Tsunade Smacks Naruto",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/FWNRdrF.jpeg",
+            backImageLink: "https://i.imgur.com/GPpjxdG.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5L-010',
             cardNumber: '68',
             subSet: "Live Action",
-            textOnCard: "Internal feud- Team 7",
+            textOnCard: "Internal Feud - Team 7",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/KGSLdMZ.jpeg",
+            backImageLink: "https://i.imgur.com/dqNVI4c.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5M-011',
             cardNumber: '69',
             subSet: "Live Action",
-            textOnCard: "curse sealing- Kakashi",
+            textOnCard: "Curse Sealing - Kakashi",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/FClHKfc.jpeg",
+            backImageLink: "https://i.imgur.com/lF4S3aT.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5N-012',
@@ -408,23 +633,26 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "Byakugan",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/bXMwBuc.jpeg",
+            backImageLink: "https://i.imgur.com/9lTyMmO.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5O-013',
             cardNumber: '71',
             subSet: "Live Action",
-            textOnCard: "Sasuke confronts Itachi",
+            textOnCard: "Sasuke Confronts Itachi",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/8y78keR.png",
+            backImageLink: "https://i.imgur.com/Jn4rsGi.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5P-014',
             cardNumber: '72',
             subSet: "Live Action",
-            textOnCard: "The third gate of life",
+            textOnCard: "The Third Gate Of Life",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/Pf1tWj2.jpeg",
+            backImageLink: "https://i.imgur.com/gvwdXzP.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5Q-015',
@@ -432,15 +660,17 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "Kakashi vs Sasuke",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/kwwUcKO.jpeg",
+            backImageLink: "https://i.imgur.com/KbhuuKe.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5R-016',
             cardNumber: '74',
             subSet: "Live Action",
-            textOnCard: "Kurama chakra appears",
+            textOnCard: "Kurama Chakra Appears",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5S-017',
@@ -448,15 +678,17 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "Enraged Naruto",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/MzDxquJ.jpeg",
+            backImageLink: "https://i.imgur.com/ooEjixX.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5T-018',
             cardNumber: '76',
             subSet: "Live Action",
-            textOnCard: "shukaku vs kurama",
+            textOnCard: "Shukaku vs Kurama",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/LCTo4TU.jpeg",
+            backImageLink: "https://i.imgur.com/s695Wkw.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5U-019',
@@ -464,95 +696,107 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "Naruto vs Gaara",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/tSBO2LB.jpeg",
+            backImageLink: "https://i.imgur.com/LL35Z0K.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5V-020',
             cardNumber: '78',
             subSet: "Live Action",
-            textOnCard: "Anko vs morphed lion",
+            textOnCard: "Anko vs Morphed Lion",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/hSyLhMR.jpeg",
+            backImageLink: "https://i.imgur.com/RvqPetn.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5W-021',
             cardNumber: '79',
             subSet: "Live Action",
-            textOnCard: "Naruto meets Kurama",
+            textOnCard: "Naruto Meets Kurama",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/8Gx2Fxj.jpeg",
+            backImageLink: "https://i.imgur.com/3QQQpMz.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5X-022',
             cardNumber: '80',
             subSet: "Live Action",
-            textOnCard: "Gaara- Half shukaku form",
+            textOnCard: "Gaara - Half Shukaku Form",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/6FAQCPb.jpeg",
+            backImageLink: "https://i.imgur.com/KKUrOQ8.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5Y-023',
             cardNumber: '81',
             subSet: "Live Action",
-            textOnCard: "Gaara- A Change of Heart",
+            textOnCard: "Gaara - A Change Of Heart",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/8IlnGko.jpeg",
+            backImageLink: "https://i.imgur.com/uwQEY7n.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q5Z-024',
             cardNumber: '82',
             subSet: "Live Action",
-            textOnCard: "Sasuke see's Naruto's Power",
+            textOnCard: "Sasuke See's Naruto's Power",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/FSZLWF5.jpeg",
+            backImageLink: "https://i.imgur.com/ESiY8sD.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6A-025',
             cardNumber: '83',
             subSet: "Live Action",
-            textOnCard: "Mysterious Peacock jutsu",
+            textOnCard: "Mysterious Peacock Jutsu",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/V5KL2RF.jpeg",
+            backImageLink: "https://i.imgur.com/f8tPOLN.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6B-026',
             cardNumber: '84',
             subSet: "Live Action",
-            textOnCard: "Kakashi confronts sasuke",
+            textOnCard: "Kakashi Confronts Sasuke",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/05aLfIu.jpeg",
+            backImageLink: "https://i.imgur.com/ONu7bi0.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6C-027',
             cardNumber: '85',
             subSet: "Live Action",
-            textOnCard: "Jiraiya intervenes-Kabuto vs Tsunade",
+            textOnCard: "Jiraiya Intervenes - Kabuto vs Tsunade",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6D-028',
             cardNumber: '86',
             subSet: "Live Action",
-            textOnCard: "Naruto saves Tsunade from Kabuto",
+            textOnCard: "Naruto Saves Tsunade From Kabuto",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6E-029',
             cardNumber: '87',
             subSet: "Live Action",
-            textOnCard: "Tsunade heals naruto",
+            textOnCard: "Tsunade Heals Naruto",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6F-030',
             cardNumber: '88',
             subSet: "Live Action",
-            textOnCard: "sasuke breaks gaara's sand barrier",
+            textOnCard: "Sasuke Breaks Gaara's Sand Barrier",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6G-031',
@@ -560,7 +804,8 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "Sasuke reads the tablet at naka shrine",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6H-032',
@@ -568,7 +813,8 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "Lee protects Team seven",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6I-033',
@@ -576,7 +822,8 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "The hidden star",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6J-034',
@@ -584,7 +831,8 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "Chunin exam- Final Round",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6K-035',
@@ -592,7 +840,8 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "Naruto saves Sasuke",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6L-036',
@@ -600,7 +849,8 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "Orochimaru applies 5 pronged seal",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6M-037',
@@ -608,7 +858,8 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "Sasuke Retrieval Team",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6N-038',
@@ -616,7 +867,8 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "Relaxing Kakashi",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6O-039',
@@ -624,7 +876,8 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "Zabuza-kill spree",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q6P-040',
@@ -632,7 +885,8 @@ export const NarutoToppsData = {
             subSet: "Live Action",
             textOnCard: "The final moment",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         }
     ],
     baseCardsChakraCard: [
@@ -642,7 +896,8 @@ export const NarutoToppsData = {
             subSet: "Chakra Card",
             textOnCard: "Naruto Uzumaki",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q7E-002',
@@ -650,7 +905,8 @@ export const NarutoToppsData = {
             subSet: "Chakra Card",
             textOnCard: "Shikamaru Nara",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q7F-003',
@@ -658,7 +914,8 @@ export const NarutoToppsData = {
             subSet: "Chakra Card",
             textOnCard: "Neji Hyuga",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q7G-004',
@@ -666,7 +923,8 @@ export const NarutoToppsData = {
             subSet: "Chakra Card",
             textOnCard: "Orochimaru",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q7H-005',
@@ -674,7 +932,8 @@ export const NarutoToppsData = {
             subSet: "Chakra Card",
             textOnCard: "Sasuke Uchiha",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q7I-006',
@@ -682,7 +941,8 @@ export const NarutoToppsData = {
             subSet: "Chakra Card",
             textOnCard: "Sakura Haruno",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q7J-007',
@@ -690,7 +950,8 @@ export const NarutoToppsData = {
             subSet: "Chakra Card",
             textOnCard: "Rock Lee",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q7K-008',
@@ -698,7 +959,8 @@ export const NarutoToppsData = {
             subSet: "Chakra Card",
             textOnCard: "Gaara of the Sand",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q7L-009',
@@ -706,7 +968,8 @@ export const NarutoToppsData = {
             subSet: "Chakra Card",
             textOnCard: "Kabuto Yakushi",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q7M-010',
@@ -714,7 +977,8 @@ export const NarutoToppsData = {
             subSet: "Chakra Card",
             textOnCard: "Kakashi Hatake",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         }
     ],
     baseCardsDefenseCard: [
@@ -724,7 +988,8 @@ export const NarutoToppsData = {
             subSet: "Defense Card",
             textOnCard: "Sand wall-Gaara",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8B-002',
@@ -732,7 +997,8 @@ export const NarutoToppsData = {
             subSet: "Defense Card",
             textOnCard: "Earth style wall-Hiruzen Sarutobi",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8C-003',
@@ -740,7 +1006,8 @@ export const NarutoToppsData = {
             subSet: "Defense Card",
             textOnCard: "8 trigrams-Hinata Hyuga",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8D-004',
@@ -748,7 +1015,8 @@ export const NarutoToppsData = {
             subSet: "Defense Card",
             textOnCard: "Water wall- Kakashi hatake",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8E-005',
@@ -756,7 +1024,8 @@ export const NarutoToppsData = {
             subSet: "Defense Card",
             textOnCard: "Clone jutsu-Zabuza Momochi",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8F-006',
@@ -764,7 +1033,8 @@ export const NarutoToppsData = {
             subSet: "Defense Card",
             textOnCard: "Water clone jutsu- Yoroi Akado",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8G-007',
@@ -772,7 +1042,8 @@ export const NarutoToppsData = {
             subSet: "Defense Card",
             textOnCard: "clone Jutsu-Shino Aburame",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8H-008',
@@ -780,7 +1051,8 @@ export const NarutoToppsData = {
             subSet: "Defense Card",
             textOnCard: "Mitotic regeneration- Tsunade Senju",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-009',
@@ -788,7 +1060,8 @@ export const NarutoToppsData = {
             subSet: "Defense Card",
             textOnCard: "Terra shield- Jirōbō",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8J-010',
@@ -796,7 +1069,8 @@ export const NarutoToppsData = {
             subSet: "Defense Card",
             textOnCard: "Genjutsu Release- Kakashi and Guy",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8K-011',
@@ -804,7 +1078,8 @@ export const NarutoToppsData = {
             subSet: "Defense Card",
             textOnCard: "Chakra Absorption- Yoroi",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8L-012',
@@ -812,7 +1087,8 @@ export const NarutoToppsData = {
             subSet: "Defense Card",
             textOnCard: "Hidden Mist Jutsu- Zabuza",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         }
     ],
     baseCardsExtensionActionScene: [
@@ -822,7 +1098,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Naruto vs Sasuke- Final Valley 1",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8V-002',
@@ -830,7 +1107,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Naruto vs Sasuke- Final Valley 2",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8W-003',
@@ -838,7 +1116,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Naruto vs Sasuke- Final Valley 3",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8X-004',
@@ -846,7 +1125,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Naruto vs Sasuke- Final Valley 4",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8Y-005',
@@ -854,7 +1134,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Orochimaru - Revival Jutsu 1",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8Z-006',
@@ -862,7 +1143,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Orochimaru - Revival Jutsu 2",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8A-007',
@@ -870,7 +1152,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Orochimaru - Revival Jutsu 3",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8B-008',
@@ -878,7 +1161,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Orochimaru - Revival Jutsu 4",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8C-009',
@@ -886,7 +1170,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Third hokage vs Orochimaru - Reaper death seal 1",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8D-010',
@@ -894,7 +1179,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Third hokage vs Orochimaru - Reaper death seal 2",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8E-011',
@@ -902,7 +1188,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Third hokage vs Orochimaru - Reaper death seal 3",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8F-012',
@@ -910,7 +1197,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Third hokage vs Orochimaru - Reaper death seal 4",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8G-013',
@@ -918,7 +1206,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Naruto vs Kabuto - The First Rasengan 1",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8H-014',
@@ -926,7 +1215,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Naruto vs Kabuto - The First Rasengan 2",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-015',
@@ -934,7 +1224,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Naruto vs Kabuto - The First Rasengan 3",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8J-016',
@@ -942,7 +1233,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Naruto vs Kabuto - The First Rasengan 4",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8K-017',
@@ -950,7 +1242,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Naruto+ Gamabunta vs Gaara+ Shukaku 1",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8L-018',
@@ -958,7 +1251,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Naruto+ Gamabunta vs Gaara+ Shukaku 2",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8M-019',
@@ -966,7 +1260,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Naruto+ Gamabunta vs Gaara+ Shukaku 3",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8N-020',
@@ -974,7 +1269,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Naruto+ Gamabunta vs Gaara+ Shukaku 4",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8O-021',
@@ -982,7 +1278,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Sharingan vs. Sharingan 1",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8P-022',
@@ -990,7 +1287,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Sharingan vs. Sharingan 2",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8Q-023',
@@ -998,7 +1296,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Sharingan vs. Sharingan 3",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8R-024',
@@ -1006,7 +1305,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Sharingan vs. Sharingan 4",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8S-025',
@@ -1014,7 +1314,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Drunken Lee vs Kimimaro 1",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8T-026',
@@ -1022,7 +1323,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Drunken Lee vs Kimimaro 2",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8U-027',
@@ -1030,7 +1332,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Drunken Lee vs Kimimaro 3",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8V-028',
@@ -1038,7 +1341,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Drunken Lee vs Kimimaro 4",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8W-029',
@@ -1046,7 +1350,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "The three legendary sannin Showdown 1",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8X-030',
@@ -1054,7 +1359,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "The three legendary sannin Showdown 2",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8Y-031',
@@ -1062,7 +1368,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "The three legendary sannin Showdown 3",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8Z-032',
@@ -1070,7 +1377,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "The three legendary sannin Showdown 4",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8A-033',
@@ -1078,7 +1386,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Brother vs. Brother 1",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8B-034',
@@ -1086,7 +1395,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Brother vs. Brother 2",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8C-035',
@@ -1094,7 +1404,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Brother vs. Brother 3",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8D-036',
@@ -1102,7 +1413,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Brother vs. Brother 4",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8E-037',
@@ -1110,7 +1422,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Naruto vs Orochimaru in disguise 1",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8F-038',
@@ -1118,7 +1431,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Naruto vs Orochimaru in disguise 2",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8G-039',
@@ -1126,7 +1440,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Naruto vs Orochimaru in disguise 3",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8H-040',
@@ -1134,7 +1449,8 @@ export const NarutoToppsData = {
             subSet: "Action Scene",
             textOnCard: "Naruto vs Orochimaru in disguise 4",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         }
     ],
     ulitimaCardsScodix: [
@@ -1144,7 +1460,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Master Jiraiya/ pervy sage",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-002',
@@ -1152,7 +1469,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Sasuke Uchiha",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-003',
@@ -1160,7 +1478,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Sakura Haruno",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-004',
@@ -1168,7 +1487,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Might Guy",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-005',
@@ -1176,7 +1496,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Rock Lee",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-006',
@@ -1184,7 +1505,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "The Sand Siblings",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-007',
@@ -1192,7 +1514,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "The Uchiha Brothers",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-008',
@@ -1200,7 +1523,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Team Kakashi/ Team Seven",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-009',
@@ -1208,7 +1532,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Shikamaru Nara",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-010',
@@ -1216,7 +1541,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Ichiraku Ramen",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-011',
@@ -1224,7 +1550,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Hinata Hyuga",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-012',
@@ -1232,7 +1559,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Choji Akimichi",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-013',
@@ -1240,7 +1568,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Ino Yamanaka",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-014',
@@ -1248,7 +1577,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Orochimaru",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-015',
@@ -1256,7 +1586,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "1 Tail- Shukaku",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-016',
@@ -1264,7 +1595,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "9 tails- Kurama",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-017',
@@ -1272,7 +1604,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Gamabunta",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-018',
@@ -1280,7 +1613,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Tenten",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-019',
@@ -1288,7 +1622,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Kankuro",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-020',
@@ -1296,7 +1631,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Neji Hyuga",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-021',
@@ -1304,7 +1640,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Naruto Uzumaki",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-022',
@@ -1312,7 +1649,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Temari",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-023',
@@ -1320,7 +1658,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Minato Namikaze",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-024',
@@ -1328,7 +1667,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Shino Aburame",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-025',
@@ -1336,7 +1676,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Kiba & Akamaru",
             isCollected: false,
-            imageLink: "https://i.imgur.com/n0CkMaz.png", backImageLink: ""
+            imageLink: "https://i.imgur.com/9kLMG2u.png",
+            backImageLink: ""
         }
     ]
 

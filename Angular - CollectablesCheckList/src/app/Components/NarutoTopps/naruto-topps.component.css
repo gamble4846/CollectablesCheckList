@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    z-index: 3;
 }
 
 .ImageFullScreenContainer .FullScreenButtonContainer {
@@ -39,6 +40,8 @@
     max-width: 90%;
     object-fit: contain;
     transition: transform 0.5s ease;
+    border: 5px solid white;
+    border-radius: 5px;
 }
 
 .ImageFullScreenContainer .CloseButton {
@@ -79,14 +82,18 @@
     flex-direction: column;
 }
 
-.CardContainer .ImageContainer {
+.ImageContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 200px;
 }
 
-.CardContainer .ImageContainer img {
+.ImageContainer.small {
+    height: 50px;
+}
+
+.ImageContainer img {
     height: 100%;
     width: auto;
     max-width: 100%;
