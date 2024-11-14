@@ -1,15 +1,59 @@
-.NarutoToppsContainer{
+.NarutoToppsContainer {
     max-width: 1000px;
     min-height: 100%;
     background-color: #ffffffab;
     margin: auto auto;
 }
 
-.SectionContainer{
+.ImageFullScreenContainer {
+    background-color: #000000c4;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ImageFullScreenContainer .FullScreenButtonContainer {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.ImageFullScreenContainer .FullScreenButtonContainer .button {
+    cursor: pointer;
     padding: 10px;
 }
 
-.SectionTitle{
+.ImageFullScreenContainer .FullScreenButtonContainer .button:hover {
+    color: #1890ff;
+}
+
+.ImageFullScreenContainer img {
+    height: 80%;
+    max-width: 90%;
+    object-fit: contain;
+    transition: transform 0.5s ease;
+}
+
+.ImageFullScreenContainer .CloseButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+.SectionContainer {
+    padding: 10px;
+}
+
+.SectionTitle {
     background-color: #101a34;
     font-size: 30px;
     text-align: center;
@@ -20,11 +64,11 @@
     border-bottom: solid 10px #083fa1;
 }
 
-.SectionBody{
+.SectionBody {
     padding: 10px 0px;
 }
 
-.CardContainer{
+.CardContainer {
     border: solid 1px #d2d2d2;
     border-radius: 5px;
     padding: 5px;
@@ -35,28 +79,29 @@
     flex-direction: column;
 }
 
-.CardContainer .ImageContainer{
+.CardContainer .ImageContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 200px;
 }
 
-.CardContainer .ImageContainer img{
+.CardContainer .ImageContainer img {
     height: 100%;
     width: auto;
     max-width: 100%;
     max-height: 100%;
+    cursor: pointer;
 }
 
-.CardContainer .Data .Line{
+.CardContainer .Data .Line {
     display: flex;
     padding: 5px;
     padding-bottom: 0px;
     justify-content: space-between;
 }
 
-.CardContainer .Data .Line div{
+.CardContainer .Data .Line div {
     width: 49%;
     background-color: #729cb2;
     padding: 4px;

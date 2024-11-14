@@ -1,37 +1,53 @@
 <section class="NarutoToppsContainer">
     <section class="SectionContainer">
+        <div style="padding: 5px 0px;">
+            <nz-input-group [nzSuffix]="suffixIconSearch">
+                <input type="text" nz-input placeholder="Search" [(ngModel)]="searchText" />
+            </nz-input-group>
+            <ng-template #suffixIconSearch>
+                <span nz-icon nzType="search"></span>
+            </ng-template>
+        </div>
+        <div style="padding: 5px 0px;">
+            <nz-switch [(ngModel)]="ShowOnlyPendingCards"></nz-switch> Show Only Pending Cards
+        </div>
+    </section>
+    <section class="SectionContainer">
         <div class="SectionTitle">
             Base Cards - Role Playing Cards
         </div>
         <div class="SectionBody">
             <div nz-row [nzGutter]="[16,16]">
-                <div nz-col nzXs="24" nzSm="12" nzMd="6" nzLg="6" nzXl="6"
-                    *ngFor="let cardData of NarutoToppsData.baseCardsRolePlayingCards">
-                    <div class="CardContainer">
-                        <div class="ImageContainer">
-                            <img [src]="cardData.imageLink">
-                        </div>
-                        <div class="Data">
-                            <div class="Line">
-                                <div>Card Number</div>
-                                <div>{{cardData.cardNumber}}</div>
+                <ng-container *ngFor="let cardData of NarutoToppsData.baseCardsRolePlayingCards">
+                    <div nz-col nzXs="24" nzSm="12" nzMd="6" nzLg="6" nzXl="6" *ngIf="ShowCard(cardData)">
+                        <div class="CardContainer">
+                            <div class="ImageContainer">
+                                <img [src]="cardData.imageLink"
+                                    (click)="ImageFullScreen(cardData.imageLink, cardData.backImageLink)">
                             </div>
-                            <div class="Line">
-                                <div nzTooltipTitle="Subset">Subset</div>
-                                <div>{{cardData.subSet}}</div>
-                            </div>
-                            <div class="Line">
-                                <div nzTooltipTitle="Text On Cards">Text On Cards</div>
-                                <div>{{cardData.textOnCard}}</div>
-                            </div>
-                            <div class="Line">
-                                <div>Collected</div>
-                                <div><label nz-checkbox [(ngModel)]="cardData.isCollected"
-                                        (ngModelChange)="isCollectedChanged()"></label></div>
+                            <div class="Data">
+                                <div class="Line">
+                                    <div>Card Number</div>
+                                    <div>{{cardData.cardNumber}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div nzTooltipTitle="Subset">Subset</div>
+                                    <div>{{cardData.subSet}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div nzTooltipTitle="Text On Cards">Text On Cards</div>
+                                    <div>{{cardData.textOnCard}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div>Collected</div>
+                                    <div><label nz-checkbox [(ngModel)]="cardData.isCollected"
+                                            (ngModelChange)="isCollectedChanged()"></label></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </ng-container>
+
             </div>
         </div>
     </section>
@@ -41,33 +57,35 @@
         </div>
         <div class="SectionBody">
             <div nz-row [nzGutter]="[16,16]">
-                <div nz-col nzXs="24" nzSm="12" nzMd="6" nzLg="6" nzXl="6"
-                    *ngFor="let cardData of NarutoToppsData.baseCardsSpawnCards">
-                    <div class="CardContainer">
-                        <div class="ImageContainer">
-                            <img [src]="cardData.imageLink">
-                        </div>
-                        <div class="Data">
-                            <div class="Line">
-                                <div>Card Number</div>
-                                <div>{{cardData.cardNumber}}</div>
+                <ng-container *ngFor="let cardData of NarutoToppsData.baseCardsSpawnCards">
+                    <div nz-col nzXs="24" nzSm="12" nzMd="6" nzLg="6" nzXl="6" *ngIf="ShowCard(cardData)">
+                        <div class="CardContainer">
+                            <div class="ImageContainer">
+                                <img [src]="cardData.imageLink"
+                                    (click)="ImageFullScreen(cardData.imageLink, cardData.backImageLink)">
                             </div>
-                            <div class="Line">
-                                <div nzTooltipTitle="Subset">Subset</div>
-                                <div>{{cardData.subSet}}</div>
-                            </div>
-                            <div class="Line">
-                                <div nzTooltipTitle="Text On Cards">Text On Cards</div>
-                                <div>{{cardData.textOnCard}}</div>
-                            </div>
-                            <div class="Line">
-                                <div>Collected</div>
-                                <div><label nz-checkbox [(ngModel)]="cardData.isCollected"
-                                        (ngModelChange)="isCollectedChanged()"></label></div>
+                            <div class="Data">
+                                <div class="Line">
+                                    <div>Card Number</div>
+                                    <div>{{cardData.cardNumber}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div nzTooltipTitle="Subset">Subset</div>
+                                    <div>{{cardData.subSet}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div nzTooltipTitle="Text On Cards">Text On Cards</div>
+                                    <div>{{cardData.textOnCard}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div>Collected</div>
+                                    <div><label nz-checkbox [(ngModel)]="cardData.isCollected"
+                                            (ngModelChange)="isCollectedChanged()"></label></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </ng-container>
             </div>
         </div>
     </section>
@@ -77,33 +95,35 @@
         </div>
         <div class="SectionBody">
             <div nz-row [nzGutter]="[16,16]">
-                <div nz-col nzXs="24" nzSm="12" nzMd="6" nzLg="6" nzXl="6"
-                    *ngFor="let cardData of NarutoToppsData.baseCardsLightAttack">
-                    <div class="CardContainer">
-                        <div class="ImageContainer">
-                            <img [src]="cardData.imageLink">
-                        </div>
-                        <div class="Data">
-                            <div class="Line">
-                                <div>Card Number</div>
-                                <div>{{cardData.cardNumber}}</div>
+                <ng-container *ngFor="let cardData of NarutoToppsData.baseCardsLightAttack">
+                    <div nz-col nzXs="24" nzSm="12" nzMd="6" nzLg="6" nzXl="6" *ngIf="ShowCard(cardData)">
+                        <div class="CardContainer">
+                            <div class="ImageContainer">
+                                <img [src]="cardData.imageLink"
+                                    (click)="ImageFullScreen(cardData.imageLink, cardData.backImageLink)">
                             </div>
-                            <div class="Line">
-                                <div nzTooltipTitle="Subset">Subset</div>
-                                <div>{{cardData.subSet}}</div>
-                            </div>
-                            <div class="Line">
-                                <div nzTooltipTitle="Text On Cards">Text On Cards</div>
-                                <div>{{cardData.textOnCard}}</div>
-                            </div>
-                            <div class="Line">
-                                <div>Collected</div>
-                                <div><label nz-checkbox [(ngModel)]="cardData.isCollected"
-                                        (ngModelChange)="isCollectedChanged()"></label></div>
+                            <div class="Data">
+                                <div class="Line">
+                                    <div>Card Number</div>
+                                    <div>{{cardData.cardNumber}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div nzTooltipTitle="Subset">Subset</div>
+                                    <div>{{cardData.subSet}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div nzTooltipTitle="Text On Cards">Text On Cards</div>
+                                    <div>{{cardData.textOnCard}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div>Collected</div>
+                                    <div><label nz-checkbox [(ngModel)]="cardData.isCollected"
+                                            (ngModelChange)="isCollectedChanged()"></label></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </ng-container>
             </div>
         </div>
     </section>
@@ -113,33 +133,35 @@
         </div>
         <div class="SectionBody">
             <div nz-row [nzGutter]="[16,16]">
-                <div nz-col nzXs="24" nzSm="12" nzMd="6" nzLg="6" nzXl="6"
-                    *ngFor="let cardData of NarutoToppsData.baseCardsLiveAction">
-                    <div class="CardContainer">
-                        <div class="ImageContainer">
-                            <img [src]="cardData.imageLink">
-                        </div>
-                        <div class="Data">
-                            <div class="Line">
-                                <div>Card Number</div>
-                                <div>{{cardData.cardNumber}}</div>
+                <ng-container *ngFor="let cardData of NarutoToppsData.baseCardsLiveAction">
+                    <div nz-col nzXs="24" nzSm="12" nzMd="6" nzLg="6" nzXl="6" *ngIf="ShowCard(cardData)">
+                        <div class="CardContainer">
+                            <div class="ImageContainer">
+                                <img [src]="cardData.imageLink"
+                                    (click)="ImageFullScreen(cardData.imageLink, cardData.backImageLink)">
                             </div>
-                            <div class="Line">
-                                <div nzTooltipTitle="Subset">Subset</div>
-                                <div>{{cardData.subSet}}</div>
-                            </div>
-                            <div class="Line">
-                                <div nzTooltipTitle="Text On Cards">Text On Cards</div>
-                                <div>{{cardData.textOnCard}}</div>
-                            </div>
-                            <div class="Line">
-                                <div>Collected</div>
-                                <div><label nz-checkbox [(ngModel)]="cardData.isCollected"
-                                        (ngModelChange)="isCollectedChanged()"></label></div>
+                            <div class="Data">
+                                <div class="Line">
+                                    <div>Card Number</div>
+                                    <div>{{cardData.cardNumber}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div nzTooltipTitle="Subset">Subset</div>
+                                    <div>{{cardData.subSet}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div nzTooltipTitle="Text On Cards">Text On Cards</div>
+                                    <div>{{cardData.textOnCard}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div>Collected</div>
+                                    <div><label nz-checkbox [(ngModel)]="cardData.isCollected"
+                                            (ngModelChange)="isCollectedChanged()"></label></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </ng-container>
             </div>
         </div>
     </section>
@@ -149,33 +171,35 @@
         </div>
         <div class="SectionBody">
             <div nz-row [nzGutter]="[16,16]">
-                <div nz-col nzXs="24" nzSm="12" nzMd="6" nzLg="6" nzXl="6"
-                    *ngFor="let cardData of NarutoToppsData.baseCardsChakraCard">
-                    <div class="CardContainer">
-                        <div class="ImageContainer">
-                            <img [src]="cardData.imageLink">
-                        </div>
-                        <div class="Data">
-                            <div class="Line">
-                                <div>Card Number</div>
-                                <div>{{cardData.cardNumber}}</div>
+                <ng-container *ngFor="let cardData of NarutoToppsData.baseCardsChakraCard">
+                    <div nz-col nzXs="24" nzSm="12" nzMd="6" nzLg="6" nzXl="6" *ngIf="ShowCard(cardData)">
+                        <div class="CardContainer">
+                            <div class="ImageContainer">
+                                <img [src]="cardData.imageLink"
+                                    (click)="ImageFullScreen(cardData.imageLink, cardData.backImageLink)">
                             </div>
-                            <div class="Line">
-                                <div nzTooltipTitle="Subset">Subset</div>
-                                <div>{{cardData.subSet}}</div>
-                            </div>
-                            <div class="Line">
-                                <div nzTooltipTitle="Text On Cards">Text On Cards</div>
-                                <div>{{cardData.textOnCard}}</div>
-                            </div>
-                            <div class="Line">
-                                <div>Collected</div>
-                                <div><label nz-checkbox [(ngModel)]="cardData.isCollected"
-                                        (ngModelChange)="isCollectedChanged()"></label></div>
+                            <div class="Data">
+                                <div class="Line">
+                                    <div>Card Number</div>
+                                    <div>{{cardData.cardNumber}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div nzTooltipTitle="Subset">Subset</div>
+                                    <div>{{cardData.subSet}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div nzTooltipTitle="Text On Cards">Text On Cards</div>
+                                    <div>{{cardData.textOnCard}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div>Collected</div>
+                                    <div><label nz-checkbox [(ngModel)]="cardData.isCollected"
+                                            (ngModelChange)="isCollectedChanged()"></label></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </ng-container>
             </div>
         </div>
     </section>
@@ -185,33 +209,35 @@
         </div>
         <div class="SectionBody">
             <div nz-row [nzGutter]="[16,16]">
-                <div nz-col nzXs="24" nzSm="12" nzMd="6" nzLg="6" nzXl="6"
-                    *ngFor="let cardData of NarutoToppsData.baseCardsDefenseCard">
-                    <div class="CardContainer">
-                        <div class="ImageContainer">
-                            <img [src]="cardData.imageLink">
-                        </div>
-                        <div class="Data">
-                            <div class="Line">
-                                <div>Card Number</div>
-                                <div>{{cardData.cardNumber}}</div>
+                <ng-container *ngFor="let cardData of NarutoToppsData.baseCardsDefenseCard">
+                    <div nz-col nzXs="24" nzSm="12" nzMd="6" nzLg="6" nzXl="6" *ngIf="ShowCard(cardData)">
+                        <div class="CardContainer">
+                            <div class="ImageContainer">
+                                <img [src]="cardData.imageLink"
+                                    (click)="ImageFullScreen(cardData.imageLink, cardData.backImageLink)">
                             </div>
-                            <div class="Line">
-                                <div nzTooltipTitle="Subset">Subset</div>
-                                <div>{{cardData.subSet}}</div>
-                            </div>
-                            <div class="Line">
-                                <div nzTooltipTitle="Text On Cards">Text On Cards</div>
-                                <div>{{cardData.textOnCard}}</div>
-                            </div>
-                            <div class="Line">
-                                <div>Collected</div>
-                                <div><label nz-checkbox [(ngModel)]="cardData.isCollected"
-                                        (ngModelChange)="isCollectedChanged()"></label></div>
+                            <div class="Data">
+                                <div class="Line">
+                                    <div>Card Number</div>
+                                    <div>{{cardData.cardNumber}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div nzTooltipTitle="Subset">Subset</div>
+                                    <div>{{cardData.subSet}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div nzTooltipTitle="Text On Cards">Text On Cards</div>
+                                    <div>{{cardData.textOnCard}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div>Collected</div>
+                                    <div><label nz-checkbox [(ngModel)]="cardData.isCollected"
+                                            (ngModelChange)="isCollectedChanged()"></label></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </ng-container>
             </div>
         </div>
     </section>
@@ -221,33 +247,35 @@
         </div>
         <div class="SectionBody">
             <div nz-row [nzGutter]="[16,16]">
-                <div nz-col nzXs="24" nzSm="12" nzMd="6" nzLg="6" nzXl="6"
-                    *ngFor="let cardData of NarutoToppsData.baseCardsExtensionActionScene">
-                    <div class="CardContainer">
-                        <div class="ImageContainer">
-                            <img [src]="cardData.imageLink">
-                        </div>
-                        <div class="Data">
-                            <div class="Line">
-                                <div>Card Number</div>
-                                <div>{{cardData.cardNumber}}</div>
+                <ng-container *ngFor="let cardData of NarutoToppsData.baseCardsExtensionActionScene">
+                    <div nz-col nzXs="24" nzSm="12" nzMd="6" nzLg="6" nzXl="6" *ngIf="ShowCard(cardData)">
+                        <div class="CardContainer">
+                            <div class="ImageContainer">
+                                <img [src]="cardData.imageLink"
+                                    (click)="ImageFullScreen(cardData.imageLink, cardData.backImageLink)">
                             </div>
-                            <div class="Line">
-                                <div nzTooltipTitle="Subset">Subset</div>
-                                <div>{{cardData.subSet}}</div>
-                            </div>
-                            <div class="Line">
-                                <div nzTooltipTitle="Text On Cards">Text On Cards</div>
-                                <div>{{cardData.textOnCard}}</div>
-                            </div>
-                            <div class="Line">
-                                <div>Collected</div>
-                                <div><label nz-checkbox [(ngModel)]="cardData.isCollected"
-                                        (ngModelChange)="isCollectedChanged()"></label></div>
+                            <div class="Data">
+                                <div class="Line">
+                                    <div>Card Number</div>
+                                    <div>{{cardData.cardNumber}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div nzTooltipTitle="Subset">Subset</div>
+                                    <div>{{cardData.subSet}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div nzTooltipTitle="Text On Cards">Text On Cards</div>
+                                    <div>{{cardData.textOnCard}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div>Collected</div>
+                                    <div><label nz-checkbox [(ngModel)]="cardData.isCollected"
+                                            (ngModelChange)="isCollectedChanged()"></label></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </ng-container>
             </div>
         </div>
     </section>
@@ -257,34 +285,62 @@
         </div>
         <div class="SectionBody">
             <div nz-row [nzGutter]="[16,16]">
-                <div nz-col nzXs="24" nzSm="12" nzMd="6" nzLg="6" nzXl="6"
-                    *ngFor="let cardData of NarutoToppsData.ulitimaCardsScodix">
-                    <div class="CardContainer">
-                        <div class="ImageContainer">
-                            <img [src]="cardData.imageLink">
-                        </div>
-                        <div class="Data">
-                            <div class="Line">
-                                <div>Card Number</div>
-                                <div>{{cardData.cardNumber}}</div>
+                <ng-container *ngFor="let cardData of NarutoToppsData.ulitimaCardsScodix">
+                    <div nz-col nzXs="24" nzSm="12" nzMd="6" nzLg="6" nzXl="6" *ngIf="ShowCard(cardData)">
+                        <div class="CardContainer">
+                            <div class="ImageContainer">
+                                <img [src]="cardData.imageLink"
+                                    (click)="ImageFullScreen(cardData.imageLink, cardData.backImageLink)">
                             </div>
-                            <div class="Line">
-                                <div nzTooltipTitle="Subset">Subset</div>
-                                <div>{{cardData.subSet}}</div>
-                            </div>
-                            <div class="Line">
-                                <div nzTooltipTitle="Text On Cards">Text On Cards</div>
-                                <div>{{cardData.textOnCard}}</div>
-                            </div>
-                            <div class="Line">
-                                <div>Collected</div>
-                                <div><label nz-checkbox [(ngModel)]="cardData.isCollected"
-                                        (ngModelChange)="isCollectedChanged()"></label></div>
+                            <div class="Data">
+                                <div class="Line">
+                                    <div>Card Number</div>
+                                    <div>{{cardData.cardNumber}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div nzTooltipTitle="Subset">Subset</div>
+                                    <div>{{cardData.subSet}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div nzTooltipTitle="Text On Cards">Text On Cards</div>
+                                    <div>{{cardData.textOnCard}}</div>
+                                </div>
+                                <div class="Line">
+                                    <div>Collected</div>
+                                    <div><label nz-checkbox [(ngModel)]="cardData.isCollected"
+                                            (ngModelChange)="isCollectedChanged()"></label></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </ng-container>
             </div>
         </div>
     </section>
 </section>
+
+<div *ngIf="ImageFullScreenShow" class="ImageFullScreenContainer">
+    <div class="CloseButton" (click)="CloseFulLScreenImage()">
+        <span style="cursor: pointer;" nz-icon nzType="close" nzTheme="outline"></span>
+    </div>
+    <img [src]="FullScreenImageLink" [style.transform]="'rotate(' + FullScreenRotateDegree + 'deg)'">
+    <img [src]="FullScreenBackImageLink" style="display: none;">
+    <div class="FullScreenButtonContainer">
+        <span class="button" (click)="FullScreenRotateLeft()"><span nz-icon nzType="rotate-left"
+                nzTheme="outline"></span></span>
+        <span class="button" (click)="FilpFullScreenImage()"><ng-container
+                *ngTemplateOutlet="SVG_Flip"></ng-container></span>
+        <span class="button" (click)="FullScreenRotateRight()"><span nz-icon nzType="rotate-right"
+                nzTheme="outline"></span></span>
+    </div>
+</div>
+
+
+<ng-template #SVG_Flip>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" x="0px" y="0px" width="40" height="40"
+        viewBox="0 0 50 50">
+        <path
+            d="M 20 4 C 14.507813 4 10 8.507813 10 14 L 10 31.75 L 7.125 28.875 L 4.3125 31.71875 L 12 39.40625 L 19.6875 31.71875 L 16.875 28.90625 L 14 31.75 L 14 14 C 14 10.691406 16.691406 8 20 8 L 31 8 L 31 4 Z M 38 10.59375 L 30.28125 18.3125 L 33.125 21.125 L 36 18.25 L 36 36 C 36 39.308594 33.308594 42 30 42 L 19 42 L 19 46 L 30 46 C 35.492188 46 40 41.492188 40 36 L 40 18.25 L 42.875 21.125 L 45.6875 18.28125 Z">
+        </path>
+    </svg>
+</ng-template>

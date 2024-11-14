@@ -6,12 +6,15 @@ import { CommonModule } from '@angular/common';
 import { NzCheckboxModule } from 'ng-zorro-antd/checkbox';
 import { FormsModule } from '@angular/forms';
 import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
+import { NzSwitchModule } from 'ng-zorro-antd/switch';
+import { NzInputModule } from 'ng-zorro-antd/input';
+import { NzIconModule } from 'ng-zorro-antd/icon';
 import NarutoToppsData from './NarutoToppsData';
 
 @Component({
   selector: 'app-naruto-topps',
   standalone: true,
-  imports: [CommonModule, NzGridModule, NzButtonModule, NzCheckboxModule, FormsModule, NzToolTipModule],
+  imports: [CommonModule, NzGridModule, NzButtonModule, NzCheckboxModule, FormsModule, NzToolTipModule, NzSwitchModule, NzInputModule, NzIconModule, FormsModule],
   templateUrl: './naruto-topps.component.html',
   styleUrl: './naruto-topps.component.css'
 })
@@ -19,12 +22,50 @@ import NarutoToppsData from './NarutoToppsData';
 export class NarutoToppsComponent {
 
   NarutoToppsData = NarutoToppsData;
-  LocalStorageName = "NarutoToppsCollected"
+  LocalStorageName = "NarutoToppsCollected";
+  ShowOnlyPendingCards: boolean = false;
+  ImageFullScreenShow: boolean = false;
+  FullScreenImageLink: string = "";
+  FullScreenBackImageLink: string = "";
+  FullScreenRotateDegree: number = 0;
+  searchText: string = "";
 
   constructor(private _Title: Title) {
     this._Title.setTitle("Naruto - Topps");
     this.UpdateCollectedData();
-    console.log("NarutoToppsData", NarutoToppsData);
+  }
+
+  ShowCard(carddata: any) {
+    if (!this.ShowOnlyPendingCards && !this.searchText) {
+      return true;
+    }
+    return !carddata.isCollected && carddata.textOnCard.toLowerCase().includes(this.searchText.toLowerCase());
+  }
+
+  ImageFullScreen(imageLink: string, backImageLink: string) {
+    this.ImageFullScreenShow = true;
+    this.FullScreenImageLink = imageLink;
+    this.FullScreenBackImageLink = backImageLink;
+    this.FullScreenRotateDegree = 0;
+  }
+
+  FullScreenRotateLeft() {
+    this.FullScreenRotateDegree -= 90;
+  }
+
+  FullScreenRotateRight() {
+    this.FullScreenRotateDegree += 90;
+  }
+
+  FilpFullScreenImage() {
+    var temp = this.FullScreenImageLink;
+    this.FullScreenImageLink = this.FullScreenBackImageLink;
+    this.FullScreenBackImageLink = temp;
+  }
+
+  CloseFulLScreenImage() {
+    this.ImageFullScreenShow = false;
+    this.FullScreenRotateDegree = 0;
   }
 
   isCollectedChanged() {
