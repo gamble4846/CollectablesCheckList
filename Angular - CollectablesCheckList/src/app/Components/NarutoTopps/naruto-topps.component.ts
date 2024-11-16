@@ -80,6 +80,7 @@ export class NarutoToppsComponent {
     allCollectedIds = allCollectedIds.concat(this.NarutoToppsData.baseCardsDefenseCard.filter(x => x.isCollected).map(x => x.id));
     allCollectedIds = allCollectedIds.concat(this.NarutoToppsData.baseCardsExtensionActionScene.filter(x => x.isCollected).map(x => x.id));
     allCollectedIds = allCollectedIds.concat(this.NarutoToppsData.ulitimaCardsScodix.filter(x => x.isCollected).map(x => x.id));
+    allCollectedIds = allCollectedIds.concat(this.NarutoToppsData.insertCards.filter(x => x.isCollected).map(x => x.id));
     localStorage.setItem(this.LocalStorageName, JSON.stringify(allCollectedIds));
   }
 
@@ -121,6 +122,11 @@ export class NarutoToppsComponent {
       }
     });
     this.NarutoToppsData.ulitimaCardsScodix.forEach(card => {
+      if (allCollectedIds.includes(card.id)) {
+        card.isCollected = true;
+      }
+    });
+    this.NarutoToppsData.insertCards.forEach(card => {
       if (allCollectedIds.includes(card.id)) {
         card.isCollected = true;
       }
