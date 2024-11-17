@@ -70,6 +70,48 @@ export class NarutoToppsComponent {
     this.FullScreenRotateDegree = 0;
   }
 
+  getCollectedCardsCount() {
+    return this.NarutoToppsData.baseCardsRolePlayingCards.filter(x => x.isCollected).length +
+      this.NarutoToppsData.baseCardsSpawnCards.filter(x => x.isCollected).length +
+      this.NarutoToppsData.baseCardsLightAttack.filter(x => x.isCollected).length +
+      this.NarutoToppsData.baseCardsLiveAction.filter(x => x.isCollected).length +
+      this.NarutoToppsData.baseCardsChakraCard.filter(x => x.isCollected).length +
+      this.NarutoToppsData.baseCardsDefenseCard.filter(x => x.isCollected).length +
+      this.NarutoToppsData.baseCardsExtensionActionScene.filter(x => x.isCollected).length +
+      this.NarutoToppsData.ulitimaCardsScodix.filter(x => x.isCollected).length +
+      this.NarutoToppsData.insertCards.filter(x => x.isCollected).length +
+      this.NarutoToppsData.rareCardsCharacterBIO.filter(x => x.isCollected).length +
+      this.NarutoToppsData.limitedEditionCards.filter(x => x.isCollected).length +
+      this.NarutoToppsData.redCrystalCards.filter(x => x.isCollected).length +
+      this.NarutoToppsData.thunderboltThemeCards.filter(x => x.isCollected).length +
+      this.NarutoToppsData.jetBlackThemeCards.filter(x => x.isCollected).length +
+      this.NarutoToppsData.fireIceThemeCards.filter(x => x.isCollected).length +
+      this.NarutoToppsData.tacticCards.filter(x => x.isCollected).length +
+      this.NarutoToppsData.unknownCards.filter(x => x.isCollected).length +
+      this.NarutoToppsData.diecutCards.filter(x => x.isCollected).length
+  }
+
+  getTotalCards() {
+    return this.NarutoToppsData.baseCardsRolePlayingCards.length +
+      this.NarutoToppsData.baseCardsSpawnCards.length +
+      this.NarutoToppsData.baseCardsLightAttack.length +
+      this.NarutoToppsData.baseCardsLiveAction.length +
+      this.NarutoToppsData.baseCardsChakraCard.length +
+      this.NarutoToppsData.baseCardsDefenseCard.length +
+      this.NarutoToppsData.baseCardsExtensionActionScene.length +
+      this.NarutoToppsData.ulitimaCardsScodix.length +
+      this.NarutoToppsData.insertCards.length +
+      this.NarutoToppsData.rareCardsCharacterBIO.length +
+      this.NarutoToppsData.limitedEditionCards.length +
+      this.NarutoToppsData.redCrystalCards.length +
+      this.NarutoToppsData.thunderboltThemeCards.length +
+      this.NarutoToppsData.jetBlackThemeCards.length +
+      this.NarutoToppsData.fireIceThemeCards.length +
+      this.NarutoToppsData.tacticCards.length +
+      this.NarutoToppsData.unknownCards.length +
+      this.NarutoToppsData.diecutCards.length
+  }
+
   isCollectedChanged() {
     let allCollectedIds: Array<string> = [];
     allCollectedIds = allCollectedIds.concat(this.NarutoToppsData.baseCardsRolePlayingCards.filter(x => x.isCollected).map(x => x.id));
