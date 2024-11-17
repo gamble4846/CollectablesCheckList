@@ -41,7 +41,7 @@ export class NarutoToppsComponent {
     if (!this.ShowOnlyPendingCards && !this.searchText) {
       return true;
     }
-    return !carddata.isCollected && carddata.textOnCard.toLowerCase().includes(this.searchText.toLowerCase());
+    return (!this.ShowOnlyPendingCards || !carddata.isCollected) && (carddata.textOnCard + " " + carddata.cardNumber).toLowerCase().includes(this.searchText.toLowerCase());
   }
 
   ImageFullScreen(imageLink: string, backImageLink: string) {
@@ -81,55 +81,37 @@ export class NarutoToppsComponent {
     allCollectedIds = allCollectedIds.concat(this.NarutoToppsData.baseCardsExtensionActionScene.filter(x => x.isCollected).map(x => x.id));
     allCollectedIds = allCollectedIds.concat(this.NarutoToppsData.ulitimaCardsScodix.filter(x => x.isCollected).map(x => x.id));
     allCollectedIds = allCollectedIds.concat(this.NarutoToppsData.insertCards.filter(x => x.isCollected).map(x => x.id));
+    allCollectedIds = allCollectedIds.concat(this.NarutoToppsData.rareCardsCharacterBIO.filter(x => x.isCollected).map(x => x.id));
+    allCollectedIds = allCollectedIds.concat(this.NarutoToppsData.limitedEditionCards.filter(x => x.isCollected).map(x => x.id));
+    allCollectedIds = allCollectedIds.concat(this.NarutoToppsData.redCrystalCards.filter(x => x.isCollected).map(x => x.id));
+    allCollectedIds = allCollectedIds.concat(this.NarutoToppsData.thunderboltThemeCards.filter(x => x.isCollected).map(x => x.id));
+    allCollectedIds = allCollectedIds.concat(this.NarutoToppsData.jetBlackThemeCards.filter(x => x.isCollected).map(x => x.id));
+    allCollectedIds = allCollectedIds.concat(this.NarutoToppsData.fireIceThemeCards.filter(x => x.isCollected).map(x => x.id));
+    allCollectedIds = allCollectedIds.concat(this.NarutoToppsData.tacticCards.filter(x => x.isCollected).map(x => x.id));
+    allCollectedIds = allCollectedIds.concat(this.NarutoToppsData.unknownCards.filter(x => x.isCollected).map(x => x.id));
+    allCollectedIds = allCollectedIds.concat(this.NarutoToppsData.diecutCards.filter(x => x.isCollected).map(x => x.id));
     localStorage.setItem(this.LocalStorageName, JSON.stringify(allCollectedIds));
   }
 
   UpdateCollectedData() {
     let allCollectedIds: Array<string> = JSON.parse(localStorage.getItem(this.LocalStorageName) || "[]");
-    this.NarutoToppsData.baseCardsRolePlayingCards.forEach(card => {
-      if (allCollectedIds.includes(card.id)) {
-        card.isCollected = true;
-      }
-    });
-    this.NarutoToppsData.baseCardsSpawnCards.forEach(card => {
-      if (allCollectedIds.includes(card.id)) {
-        card.isCollected = true;
-      }
-    });
-    this.NarutoToppsData.baseCardsLightAttack.forEach(card => {
-      if (allCollectedIds.includes(card.id)) {
-        card.isCollected = true;
-      }
-    });
-    this.NarutoToppsData.baseCardsLiveAction.forEach(card => {
-      if (allCollectedIds.includes(card.id)) {
-        card.isCollected = true;
-      }
-    });
-    this.NarutoToppsData.baseCardsChakraCard.forEach(card => {
-      if (allCollectedIds.includes(card.id)) {
-        card.isCollected = true;
-      }
-    });
-    this.NarutoToppsData.baseCardsDefenseCard.forEach(card => {
-      if (allCollectedIds.includes(card.id)) {
-        card.isCollected = true;
-      }
-    });
-    this.NarutoToppsData.baseCardsExtensionActionScene.forEach(card => {
-      if (allCollectedIds.includes(card.id)) {
-        card.isCollected = true;
-      }
-    });
-    this.NarutoToppsData.ulitimaCardsScodix.forEach(card => {
-      if (allCollectedIds.includes(card.id)) {
-        card.isCollected = true;
-      }
-    });
-    this.NarutoToppsData.insertCards.forEach(card => {
-      if (allCollectedIds.includes(card.id)) {
-        card.isCollected = true;
-      }
-    });
+    this.NarutoToppsData.baseCardsRolePlayingCards.forEach(card => { if (allCollectedIds.includes(card.id)) { card.isCollected = true; } });
+    this.NarutoToppsData.baseCardsSpawnCards.forEach(card => { if (allCollectedIds.includes(card.id)) { card.isCollected = true; } });
+    this.NarutoToppsData.baseCardsLightAttack.forEach(card => { if (allCollectedIds.includes(card.id)) { card.isCollected = true; } });
+    this.NarutoToppsData.baseCardsLiveAction.forEach(card => { if (allCollectedIds.includes(card.id)) { card.isCollected = true; } });
+    this.NarutoToppsData.baseCardsChakraCard.forEach(card => { if (allCollectedIds.includes(card.id)) { card.isCollected = true; } });
+    this.NarutoToppsData.baseCardsDefenseCard.forEach(card => { if (allCollectedIds.includes(card.id)) { card.isCollected = true; } });
+    this.NarutoToppsData.baseCardsExtensionActionScene.forEach(card => { if (allCollectedIds.includes(card.id)) { card.isCollected = true; } });
+    this.NarutoToppsData.ulitimaCardsScodix.forEach(card => { if (allCollectedIds.includes(card.id)) { card.isCollected = true; } });
+    this.NarutoToppsData.insertCards.forEach(card => { if (allCollectedIds.includes(card.id)) { card.isCollected = true; } });
+    this.NarutoToppsData.rareCardsCharacterBIO.forEach(card => { if (allCollectedIds.includes(card.id)) { card.isCollected = true; } });
+    this.NarutoToppsData.limitedEditionCards.forEach(card => { if (allCollectedIds.includes(card.id)) { card.isCollected = true; } });
+    this.NarutoToppsData.redCrystalCards.forEach(card => { if (allCollectedIds.includes(card.id)) { card.isCollected = true; } });
+    this.NarutoToppsData.thunderboltThemeCards.forEach(card => { if (allCollectedIds.includes(card.id)) { card.isCollected = true; } });
+    this.NarutoToppsData.jetBlackThemeCards.forEach(card => { if (allCollectedIds.includes(card.id)) { card.isCollected = true; } });
+    this.NarutoToppsData.fireIceThemeCards.forEach(card => { if (allCollectedIds.includes(card.id)) { card.isCollected = true; } });
+    this.NarutoToppsData.tacticCards.forEach(card => { if (allCollectedIds.includes(card.id)) { card.isCollected = true; } });
+    this.NarutoToppsData.unknownCards.forEach(card => { if (allCollectedIds.includes(card.id)) { card.isCollected = true; } });
+    this.NarutoToppsData.diecutCards.forEach(card => { if (allCollectedIds.includes(card.id)) { card.isCollected = true; } });
   }
 }
