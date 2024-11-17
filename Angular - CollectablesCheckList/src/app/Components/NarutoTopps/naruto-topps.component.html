@@ -15,7 +15,8 @@
             <nz-switch [(ngModel)]="ShowGrid"></nz-switch> Gird / List
         </div>
         <div class="card-count-container">
-            Card Count - {{getCollectedCardsCount()}} / {{getTotalCards()}}
+            Card Count - {{getCollectedCardsCount()}} / {{getTotalCards()}} ({{getTotalCards() -
+            getCollectedCardsCount()}})
         </div>
     </section>
     <section class="SectionContainer">
