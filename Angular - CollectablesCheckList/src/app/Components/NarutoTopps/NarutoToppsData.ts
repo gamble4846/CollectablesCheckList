@@ -1524,8 +1524,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Team Kakashi/ Team Seven",
             isCollected: false,
-            imageLink: "https://i.imgur.com/9kLMG2u.png",
-            backImageLink: ""
+            imageLink: "https://i.imgur.com/Kz0ouf5.png",
+            backImageLink: "https://i.imgur.com/NkiIVvP.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-009',
@@ -1659,8 +1659,8 @@ export const NarutoToppsData = {
             subSet: "Trivia",
             textOnCard: "Minato Namikaze",
             isCollected: false,
-            imageLink: "https://i.imgur.com/9kLMG2u.png",
-            backImageLink: ""
+            imageLink: "https://i.imgur.com/lYS9GL5.png",
+            backImageLink: "https://i.imgur.com/Fz7cUSu.png"
         },
         {
             id: '01F1YYV8F4R7S3V0XFYJGH3Q8I-024',
@@ -2378,7 +2378,7 @@ export const NarutoToppsData = {
             "subSet": "Topps.com Exclusive",
             "textOnCard": "Kakashi Hatake",
             "isCollected": false,
-            "imageLink": "https://i.imgur.com/9kLMG2u.png",
+            "imageLink": "https://i.imgur.com/31Parc4.png",
             "backImageLink": ""
         },
         {
@@ -2387,7 +2387,7 @@ export const NarutoToppsData = {
             "subSet": "Topps.com Exclusive",
             "textOnCard": "Naruto Uzumaki",
             "isCollected": false,
-            "imageLink": "https://i.imgur.com/9kLMG2u.png",
+            "imageLink": "https://i.imgur.com/N9KE6wg.png",
             "backImageLink": ""
         },
         {
@@ -2396,7 +2396,7 @@ export const NarutoToppsData = {
             "subSet": "Topps.com Exclusive",
             "textOnCard": "Nine Tailed Fox",
             "isCollected": false,
-            "imageLink": "https://i.imgur.com/9kLMG2u.png",
+            "imageLink": "https://i.imgur.com/PGAB5pj.png",
             "backImageLink": ""
         },
         {
@@ -2405,7 +2405,7 @@ export const NarutoToppsData = {
             "subSet": "Topps.com Exclusive",
             "textOnCard": "The Uchiha Brothers",
             "isCollected": false,
-            "imageLink": "https://i.imgur.com/9kLMG2u.png",
+            "imageLink": "https://i.imgur.com/DdNQedb.png",
             "backImageLink": ""
         }
     ],
@@ -2863,10 +2863,10 @@ export const NarutoToppsData = {
             "id": "UNKNOWN-01H2TY5PK3VQZMXYN2TPY5CH76-176",
             "cardNumber": "176",
             "subSet": "UNKNOWN",
-            "textOnCard": "???",
+            "textOnCard": "The Legendary Sannin",
             "isCollected": false,
-            "imageLink": "https://i.imgur.com/9kLMG2u.png",
-            "backImageLink": "XXX"
+            "imageLink": "https://i.imgur.com/JR7XZWb.png",
+            "backImageLink": "https://i.imgur.com/7dtlN9s.png"
         },
         {
             "id": "UNKNOWN-01H2TY5PM6XNW7TZQBCMR9X57C-177",
